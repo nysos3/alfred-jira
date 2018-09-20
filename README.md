@@ -1,7 +1,7 @@
 # Alfred-Jira
 This is a workflow for Alfred 2 (or Alfred 3) that can be used to interact with [JIRA](http://www.atlassian.com/jira).
-![Alt text](https://github.com/steyep/alfred-jira/raw/master/resources/demo.gif)
-## Installation 
+![Alt text](https://github.com/nysos3/alfred-jira/raw/master/resources/demo.gif)
+## Installation
 * [Install Node.js](https://nodejs.org/en/download/package-manager/) (`>=6.0.0`).
 * Clone/fork this repo
 * Run the build script `npm run build`
@@ -21,9 +21,9 @@ This is a workflow for Alfred 2 (or Alfred 3) that can be used to interact with 
   * Presents a list of assignable users for a given issue
 * Transition the status of an issue
   * Presents a list of available transitions for a given issue
-  * When a *transition* is selected, a browser window will open allowing you to set a resolution, assignee, comment, et cetera before actually submitting the change. 
+  * When a *transition* is selected, a browser window will open allowing you to set a resolution, assignee, comment, et cetera before actually submitting the change.
 * Quickly add a comment to an issue
-  * Within **Alfred**, simply select "Add a comment" for a given issue (by tabbing/pressing enter) and type the comment. Pressing `enter` will POST the comment to the issue. 
+  * Within **Alfred**, simply select "Add a comment" for a given issue (by tabbing/pressing enter) and type the comment. Pressing `enter` will POST the comment to the issue.
 * View an issue's priority
 * Watch/Unwatch an issue
 * Effortlessly track time-spent on an issue
@@ -53,7 +53,7 @@ By default, the workflow is set up to perform a *basic* search. Meaning, from th
 By default, all items associated with a specific issue will be returned when viewing an issue's details. You can specify which items are returned so that the information that is pertinent to you is easily accessible. Enable/disable menu items from the settings pane.
 
 ## Optional
-You can download the image resources associated with the workflow's enabled projects, users, and priority levels via the buttons at the bottom of the settings pane under the **Optional** header. 
+You can download the image resources associated with the workflow's enabled projects, users, and priority levels via the buttons at the bottom of the settings pane under the **Optional** header.
 
 ## Security
 In order to authenticate against the JIRA API, your username/password will be required. They will be saved in **Keychain Access**  under the name `alfred-jira`. Additionally, a configuration file will be created at `~/.alfred-jira`. Both can be removed by selecting **Logout** from the settings pane.
